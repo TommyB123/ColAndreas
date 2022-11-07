@@ -320,7 +320,6 @@ cell AMX_NATIVE_CALL ColAndreasNatives::CA_LoadFromDff(AMX *amx, cell *params)
 
 	if (dffData.read(file, modelid))
 	{
-		logprintf("ColAndreas: Loaded custom model collision. ID: %d, Model Name: %s", modelid, _dffModelName);
 		return 1;
 	}
 
